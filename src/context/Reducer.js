@@ -20,7 +20,7 @@ export default(state, action) => {
             });
             return {
                 ...state,
-                article: updatedArticle
+                article: updatedArticles
             }
         default: return state
     }

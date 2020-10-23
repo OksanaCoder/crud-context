@@ -2,6 +2,8 @@ import React, { Component, useContext, useState } from 'react'
 import { Link, useHistory } from 'react-router-dom'
 import { Form, Button } from 'react-bootstrap'
 import { GlobalContext } from '../context/GlobalState'
+import { v4 as uuidv4 } from 'uuid';
+
 
 const CreateArticle = () => {
     const [heading, setHeading] = useState('')
@@ -16,7 +18,7 @@ const CreateArticle = () => {
     const submitForm = (e) => {
         e.preventDefault()
         let newArticle = {
-            id: article.length + 1,
+            id: uuidv4(),
             heading,
             subHeading,
             description,
@@ -28,6 +30,7 @@ const CreateArticle = () => {
     }
 
     return (
+        
         <>
             <h3 className='mb-5'>New Article</h3>
             <Form onSubmit={submitForm}>

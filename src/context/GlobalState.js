@@ -2,7 +2,9 @@ import React,  {createContext, useReducer} from 'react'
 import Reducer from './Reducer'
 
 const initialState ={
-    article : []
+    article : [
+        {id: 1, heading: 'Hello world', subHeading: 'mew', description: 'bla bla bla', category: 'science', author: 'Serg'}
+    ]
 }
 
 export const GlobalContext = createContext(initialState)

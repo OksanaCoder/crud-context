@@ -25,7 +25,6 @@ function App() {
          <Route exact path='/' component={ListArticle} />
          <Route path='/create' component={CreateArticle} />
          <Route path='/edit/:id' component={EditArticle} />
-         <Route path='/delete/:id' component={DeleteArticle} />
     
     </Container>
     </Router>

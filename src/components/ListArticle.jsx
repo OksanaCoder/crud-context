@@ -9,7 +9,9 @@ import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'
 
 const ListArticles = () => {
     const { article, deleteArticle, editArticle } =  useContext(GlobalContext)
+  
     return (
+    
         <>
             <h2>List of Articles</h2>
             <Row>
