@@ -29,10 +29,12 @@ const EditArticle = (props) => {
 
     const submitForm = (e) => {
         e.preventDefault()
-        editArticle(editedPost)
+        editArticle(editedPost)       
+        history.push( '/')
+
         }
         // createArticle(newArticle)
-        // history.push('/')
+
     
   const onChange = (e) => {
     setEditedPost({

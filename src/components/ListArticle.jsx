@@ -18,7 +18,7 @@ const ListArticles = () => {
                 {article.map(item =>{
                     return (
                     <Col lg={12} md={12} sm={12} style={{border: '1px solid #000', marginBottom: '10px', padding: '20px', margin: '20px auto', borderRadius: '5px'}}>
-                       { article.length === 0 ? 
+                       { article.length == 0 ? 
                           
                                     <h2>No artciles</h2>
                           
