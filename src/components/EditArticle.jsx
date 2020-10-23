@@ -43,7 +43,7 @@ const EditArticle = (props) => {
     return (
         
         <>
-            <h3 className='mb-5'>New Article</h3>
+            <h3 className='mb-5'>EDIT Article</h3>
             <Form onSubmit={submitForm}>
                 <Form.Group controlId="formBasiHeading">
                     <Form.Label>Article Heading</Form.Label>

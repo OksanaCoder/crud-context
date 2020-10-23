@@ -3,7 +3,14 @@ import Reducer from './Reducer'
 
 const initialState ={
     article : [
-        {id: 1, heading: 'Hello world', subHeading: 'mew', description: 'bla bla bla', category: 'science', author: 'Serg'}
+        {
+            id: 1, 
+            heading: 'Hello world', 
+            subHeading: 'subHeading', 
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ea odio aliquam nisi cum, aliquid reprehenderit corporis facilis quisquam quae, nam porro obcaecati mollitia beatae sed modi rerum maiores doloremque!', 
+            category: 'science', 
+            author: 'Oksi'
+        }
     ]
 }
 
